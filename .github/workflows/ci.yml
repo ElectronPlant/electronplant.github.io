@@ -23,4 +23,5 @@ jobs:
       - name: Build and Deploy
         run: |
           mkdocs build --clean
+          touch site/.nojekyll
           mkdocs gh-deploy --force --clean
