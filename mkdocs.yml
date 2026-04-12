@@ -2,9 +2,10 @@
 site_name: David Arnaiz
 site_url: https://electronplant.github.io/personal-page/
 repo_name: personal-page
-repo_url: https://github.com/ElectronPlant/personal-page
+repo_url: https://github.com/ElectronPlant/personal-page/
 site_description: >-
   Embedded Firmware Engineer specializing in adaptive IoT sensors, RTOS, and dynamic energy management for low-power devices. Portfolio of David Arnaiz.
+use_directory_urls: true
 
 # Copyright
 copyright: Copyright © 2026 David Arnaiz
@@ -42,6 +43,7 @@ extra_css:
 
 extra_templates:
     - google009ed8c895b10d28.html # site verification file for Google
+    - BingSiteAuth.xml # site verification file for Bing
     - robots.txt
 
 extra:
@@ -70,11 +72,11 @@ plugins:
 nav:
     - Profile: index.md
     - Research:
-        - research/research.md
+        - research/index.md
         - research/thesis.md
     - Projects:
-        - projects/projects.md
-    # - Blog:
-    #     - blog/index.md
-    - info: info/info.md
+        - projects/index.md
+    - Blog:
+        - blog/index.md
+    - info: info/index.md
 

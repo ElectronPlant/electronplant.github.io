@@ -17,4 +17,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force
+      - run: |
+          export LC_ALL=C.UTF-8
+          export LANG=C.UTF-8
+          mkdocs gh-deploy --force --clean
