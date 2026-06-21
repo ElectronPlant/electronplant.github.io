@@ -1,0 +1,390 @@
+/* --------------------------------------------------------------------------------------
+    CV
+   -------------------------------------------------------------------------------------- */
+/* -------------------------------------------
+    Avatar
+   ------------------------------------------- */
+
+img[alt=resume_image] {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-bottom: -10px;
+    margin-top: -20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    font-size: 2em;
+    margin-bottom: -25px;
+    font-weight: bold;
+}
+
+#header p {
+    font-size: 1.5em;
+    margin-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -------------------------------------------
+    Social
+   ------------------------------------------- */
+.socials {
+    text-align: center;
+    font-size: 2em;
+    margin-top: -25px;
+    margin-bottom: -45px;
+}
+
+.socials a {
+    margin-right: 1em;
+}
+
+.socials a:last-child {
+    margin-right: 0;
+}
+
+.socials a {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.socials a:hover {
+    color: rgb(43, 156, 231);
+    text-decoration: none;
+}
+
+.socials a:last-child {
+    margin-right: 0;
+}
+
+
+/* -------------------------------------------
+    Social
+   ------------------------------------------- */
+
+.keywords-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+}
+
+.keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
+.keyword {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+/*.keyword:hover {
+    color: rgb(99, 43, 231);
+    background-color: #B0B0B0;
+}*/
+
+/* -------------------------------------------
+    Skills
+   ------------------------------------------- */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    line-height: 1;
+    padding-left: 30px;
+}
+
+.skills-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+    line-height: 1;
+    padding-left: 30px;
+}
+
+.skill {
+    padding-top: -10px;
+    padding-bottom: -10px;
+}
+
+.skill-group {
+    font-weight: bold;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    width: 80px;
+}
+
+/* -------------------------------------------
+    Work Experience
+   ------------------------------------------- */
+
+.we-work-duration {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: -20px;
+}
+
+.we-company-location {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: -15px;
+}
+
+.we-work {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.we-duration {
+    padding-left: 10px;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.we-company {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.we-location {
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .we-work-duration {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: -20px;
+    }
+
+    .we-company-location {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: -5px;
+    }
+
+    .we-work {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .we-duration {
+        padding-left: 0px;
+        font-size: 0.9em;
+        margin-bottom: 5px;
+    }
+
+    .we-company {
+        font-size: 1em;
+        font-weight: normal;
+    }
+
+    .we-location {
+        padding-left: 0px;
+        font-size: 0.9em;
+    }
+}
+
+/* -------------------------------------------
+    Education
+   ------------------------------------------- */
+
+.edu-degree-duration {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: -20px;
+    flex-direction: row;
+}
+
+.edu-university-location {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: -15px;
+    flex-direction: row;
+}
+
+.edu-degree {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.edu-duration {
+    padding-left: 10px;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.edu-university {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.edu-location {
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+
+.edu-grade {
+    font-size: 0.9em;
+    padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+    .edu-degree-duration {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: -20px;
+    }
+
+    .edu-university-location {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: -5px;
+    }
+
+    .edu-degree {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .edu-duration {
+        padding-left: 0;
+        font-size: 0.9em;
+        margin-bottom: 5px;
+    }
+
+    .edu-university {
+        font-size: 1em;
+        font-weight: normal;
+    }
+
+    .edu-location {
+        padding-left: 0;
+        font-size: 0.9em;
+    }
+
+    .edu-grade {
+        font-size: 1.9em;
+        padding-left: 30px;
+    }
+}
+
+/* -------------------------------------------
+    Generic
+   ------------------------------------------- */
+
+.heading-2-alternative {
+    font-size: 1.2em;
+    margin-bottom: -10px;
+}
+
+/* -------------------------------------------
+    Publications
+   ------------------------------------------- */
+
+.publication {
+    margin-top: -15px;
+    color: inherit
+}
+
+.publication a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.publication-link {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.publication-citation {
+    font-size: 0.9em;
+    margin-left: 0;
+    flex: 1;
+    min-width: 0;
+}
+
+.publication-id {
+    margin-right: 0.5em;
+    flex: none;
+}
+
+/* .pub-title-first::before {
+    content: "•";
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -0.2em;
+} */
+
+.pub-title-first {
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: -5px;
+
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 4px;
+    display: block;
+    transition: background-color 0.8s ease;
+}
+
+.pub-title-first a {
+    color: inherit;
+}
+
+.pub-title {
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 50px;
+
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 4px;
+    display: block;
+    transition: background-color 0.8s ease;
+}
+
+.pub-title a {
+    color: inherit;
+}
+
+/* -------------------------------------------
+    Figure Captions
+   ------------------------------------------- */
+
+.figure-captions {
+    justify-content: center;
+    font-size: 1em;
+    margin-top: -10px;
+}
