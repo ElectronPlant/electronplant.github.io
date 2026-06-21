@@ -23,7 +23,7 @@ description: David Arnaiz, an embedded firmware engineer specializing in adaptiv
   <a href="https://scholar.google.com/citations?user=32m35KwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
     :fontawesome-brands-google-scholar:
   </a>
-  <a href="assets/documents/DavidArnaiz_CV_2026_06.pdf" target="_blank" rel="noopener noreferrer" title="Download PDF">
+  <a href="assets/documents/DavidArnaiz_CV.pdf" target="_blank" rel="noopener noreferrer" title="Download PDF">
     :fontawesome-solid-file-pdf:
   </a>
 </div>
@@ -43,18 +43,20 @@ description: David Arnaiz, an embedded firmware engineer specializing in adaptiv
 ## :material-eye: About me
 
 <p class="heading-2-alternative">Who Am I?</p>
-I'm an experienced embedded systems engineer with 6+ years of working experience and a PhD in dynamic energy management of wireless sensor nodes.
-I'm an about the design and development of intelligent embedded systems, and have a proven track record with the complete design process from the schematic design to the firmware application.
+I'm an experienced embedded systems engineer with 8+ years of working experience and a PhD in dynamic energy management of wireless sensor nodes.
+I'm passionate about the design and development of intelligent embedded systems, additionally I have a proven track record with the complete design process from the electronic schematic design to the implementation of the firmware application.
 
 
 <p class="heading-2-alternative">Profile</p>
-* Embedded system engineer with 6+ years of experience working as a part of international and multidisciplinary teams.
+* Embedded system engineer with 8+ years of experience working as a part of international and multidisciplinary teams.
 * Proven track record with:
     * Designing embedded software architectures.
     * C drivers and Real-time FreeRTOS applications.
     * Mixed-signal electronic schematic design.
+    * Generating agentic workflows to automate routine tasks.
+* Team player, working as part of an international and multidisciplinary teams.
 * Great communication, coordination and interpersonal skills.
-* Focused on continuous improvement and innovation, delivering contributions to significant projects.
+* Focused on continuous improvement and innovation, delivering contributions to meaningful projects.
 
 ---
 ## :material-lightbulb: Skills
@@ -82,10 +84,14 @@ I'm an about the design and development of intelligent embedded systems, and hav
 
 <p markdown class="heading-2-alternative">Miscellaneous</p>
 * __Serial protocols:__ I2C, SPI, UART.
-* __Development tools:__ VS Code, Eclipse, KiCad, Cadence, Git, Unit Testing.
+* __Development tools:__ VS Code, Eclipse, KiCad, Cadence.
+* __CI/CD:__ Git.
+* __Dev:__ VS Code Copilot.
 * __AI__: Developed custom agentic workflows using VSCode Copilot to automate routine tasks, increasing development efficiency.
-* __Measurement tools:__ oscilloscope, logic analyzer, power monitor, GDB.
-* __Languages:__ Spanish (native), English (B2).
+* __Measurement tools:__ oscilloscope, logic analyzer, power monitor, GDB, SWD.
+* __Languages:__
+    * Spanish: Native
+    * English: Professional Proficiency (daily corporate use, written publications).
 
 ---
 ## :fontawesome-solid-briefcase: Work Experience
@@ -99,7 +105,8 @@ I'm an about the design and development of intelligent embedded systems, and hav
     <span class="we-location"> :fontawesome-solid-location-dot: Barcelona, Spain</span>
 </p>
 * Defined and developed the FW architecture for the vibration node featuring a configurable data processing pipeline, and integrating different firmware modules and RTOS tasks.
-* Developed multiple sensor drivers, FW modules, and complete features for LoRa-based wireless sensor nodes.
+* Developed multiple sensor drivers, fully unit tested FW modules, and complete features for low-power, LoRa-based wireless sensor nodes.
+* Designed and implemented event-driven sensing feature for the complete wireless sensor family.
 
 
 <p class="we-work-duration">
@@ -110,10 +117,9 @@ I'm an about the design and development of intelligent embedded systems, and hav
     <span class="we-company">Rolls-Royce - Control Systems</span>
     <span class="we-location"> :fontawesome-solid-location-dot: Birmingham, UK</span>
 </p>
-* Participated in the design of the Engine Monitoring Unit.
-* Designed lightning strike protection circuits for aircraft electronics.
-* Wrote hardware design documents, technical documentation and guidelines.
-* Hands-on lab testing.
+* Designed lightning strike protection circuits for high-reliability aircraft electronics within the Engine Monitoring Unit (EMU).
+* Authored hardware design documents and guidelines for safety-critical systems.
+* Conducted hands-on laboratory testing of electronic prototypes.
 
 <p class="we-work-duration">
     <span class="we-work">R&D Electronic Engineer</span>
@@ -123,10 +129,9 @@ I'm an about the design and development of intelligent embedded systems, and hav
     <span class="we-company">HP - Large Format Printing</span>
     <span class="we-location"> :fontawesome-solid-location-dot: Barcelona, Spain</span>
 </p>
-* Managed electronic schematic designs for printer mechatronics and interface.
-* PCBs based on STM32 microcontrollers and featuring SPI, I2C and UART serial interfaces, PWM outputs custom power supply sources.
-* Developed custom HW and FW prototypes for inductive, optic sensing.
-* Handled printer self-diagnostics at the PCB level.
+* Owned the electronic schematic design for printer mixed-signal, mechatronics PCBs based on STM32 MCUs.
+* Developed custom HW and FW prototypes for inductive and optical sensing.
+* Defined hardware diagnostic guidelines and printer self-diagnostics schemes.
 
 ---
 ## :fontawesome-solid-graduation-cap: Education
