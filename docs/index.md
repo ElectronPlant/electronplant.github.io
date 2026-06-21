@@ -83,6 +83,7 @@ I'm an about the design and development of intelligent embedded systems, and hav
 <p markdown class="heading-2-alternative">Miscellaneous</p>
 * __Serial protocols:__ I2C, SPI, UART.
 * __Development tools:__ VS Code, Eclipse, KiCad, Cadence, Git, Unit Testing.
+* __AI__: Developed custom agentic workflows using VSCode Copilot to automate routine tasks, increasing development efficiency.
 * __Measurement tools:__ oscilloscope, logic analyzer, power monitor, GDB.
 * __Languages:__ Spanish (native), English (B2).
 
