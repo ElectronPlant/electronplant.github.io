@@ -1,2 +1,9 @@
 # Remove IDEs
 .vscode/
+
+# Generation
+./.cache
+
+# pdf_gen build dir
+./tools/pdf_gen/build
+./tools/pdf_gen/.cache/*
