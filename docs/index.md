@@ -3,13 +3,16 @@ title: David Arnaiz - Curriculum Vitae
 icon: fontawesome/regular/id-badge
 description: David Arnaiz, an embedded firmware engineer specializing in adaptive IoT sensors, RTOSs, and dynamic energy management for low-power systems. Based in Spain.
 ---
+<!-- print skip start -->
 ![resume_image](assets/imgs/resume_image.jpg)
+<!-- print skip end -->
 
 <div id="header">
     <h1>David Arnaiz</h1>
     <p>Embedded Software Engineer</p>
 </div>
 
+<!-- print skip start -->
 <div markdown class="socials">
   <a href="mailto:electronplant@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
     :octicons-mail-16:
@@ -23,11 +26,34 @@ description: David Arnaiz, an embedded firmware engineer specializing in adaptiv
   <a href="https://scholar.google.com/citations?user=32m35KwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
     :fontawesome-brands-google-scholar:
   </a>
+
   <a href="assets/documents/DavidArnaiz_CV.pdf" target="_blank" rel="noopener noreferrer" title="Download PDF">
     :fontawesome-solid-file-pdf:
   </a>
 </div>
+<!-- print skip end -->
 
+<!-- print only start
+<div markdown class="socials_print">
+  <a href="mailto:electronplant@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
+    :octicons-mail-16: electronplant@gmail.com
+  </a>
+  <a href="https://github.com/ElectronPlant" target="_blank" rel="noopener noreferrer" title="Github">
+    :fontawesome-brands-github: ElectronPlant
+  </a>
+  <a href="https://www.linkedin.com/in/david-arnaiz-mart%C3%ADnez" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+    :fontawesome-brands-linkedin:
+  </a>
+  <a href="https://scholar.google.com/citations?user=32m35KwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+    :fontawesome-brands-google-scholar:
+  </a>
+  <a href="https://electronplant.github.io/" target="_blank" rel="noopener noreferrer" title="Personal Page">
+    :fontawesome-solid-address-book: Personal Page
+  </a>
+</div>
+print only end -->
+
+<!-- print skip start -->
 <div class="keywords-title">
     <p>Keywords</p>
 </div>
@@ -38,7 +64,7 @@ description: David Arnaiz, an embedded firmware engineer specializing in adaptiv
     <div class="keyword">Electronics Engineer</div>
     <div class="keyword">RTOS Application Dev.</div>
 </div>
-
+<!-- print skip end -->
 ---
 ## :material-eye: About me
 
@@ -129,6 +155,7 @@ I'm passionate about the design and development of intelligent embedded systems,
     <span class="we-company">HP - Large Format Printing</span>
     <span class="we-location"> :fontawesome-solid-location-dot: Barcelona, Spain</span>
 </p>
+* Part-time while completing my Master’s degree as part of the HP R&D academy program.
 * Owned the electronic schematic design for printer mixed-signal, mechatronics PCBs based on STM32 MCUs.
 * Developed custom HW and FW prototypes for inductive and optical sensing.
 * Defined hardware diagnostic guidelines and printer self-diagnostics schemes.
@@ -146,6 +173,8 @@ I'm passionate about the design and development of intelligent embedded systems,
 </p>
 * Grade of excellence.
 
+__Brief__ Dynamic Energy Management (DEM) in wireless sensor nodes. Wireless sensor nodes in an IoT network are resource constrained devices, particularly regarding their limited battery life. DEM enables wireless sensor nodes to optimize their resource optimization by dynamically adjusting to their changing operating conditions. In my thesis I mainly focus on the use of _Self-Awareness_ to enable the implementation of more complex adaptive behaviors directly at the sensor node level. In this context, a device is considered to be self-aware if it's able to monitor itself and its environment, use this information to learn and maintain models in an ongoing basis, and use this information to make intelligent decisions at runtime based on its high-level operational goals.
+
 
 <p class="edu-degree-duration">
     <span class="edu-degree">M.Sc. in Electronic Engineering</span>
@@ -156,8 +185,7 @@ I'm passionate about the design and development of intelligent embedded systems,
     <span class="edu-location">:fontawesome-solid-location-dot: Barcelona, Spain</span>
 </p>
 * GPA of 3.752 (out of 4).
-
-
+* Selected for HP’s R&D academy program, completing Master’s degree coursework while gaining hands-on R&D experience part-time.
 
 <p class="edu-degree-duration">
     <span class="edu-degree">B.Sc. in Electronic Engineering</span>
