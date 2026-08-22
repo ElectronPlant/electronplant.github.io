@@ -173,7 +173,7 @@ I'm passionate about the design and development of intelligent embedded systems,
 </p>
 * Grade of excellence.
 
-__Brief__ Dynamic Energy Management (DEM) in wireless sensor nodes. Wireless sensor nodes in an IoT network are resource constrained devices, particularly regarding their limited battery life. DEM enables wireless sensor nodes to optimize their resource optimization by dynamically adjusting to their changing operating conditions. In my thesis I mainly focus on the use of _Self-Awareness_ to enable the implementation of more complex adaptive behaviors directly at the sensor node level. In this context, a device is considered to be self-aware if it's able to monitor itself and its environment, use this information to learn and maintain models in an ongoing basis, and use this information to make intelligent decisions at runtime based on its high-level operational goals.
+__Brief__ My research focused on Dynamic Energy Management (DEM) for resource-constrained wireless sensor nodes in IoT networks. DEM enables wireless sensor nodes to optimize their resource utilization by dynamically adjusting their behavior based on their changing operating conditions. In my thesis I mainly focus on the use of _Self-Awareness_ to enable the implementation of more complex adaptive behaviors directly at the sensor node level. In this context, a device is considered to be self-aware if it's able to monitor itself and its environment, use this information to learn and maintain models on an ongoing basis, and use this information to make intelligent decisions at runtime based on its high-level operational goals.
 
 
 <p class="edu-degree-duration">
