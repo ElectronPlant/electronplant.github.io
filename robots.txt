@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Disallow: /google*.html
+Disallow: /BingSiteAuth.xml
+
+Sitemap: https://electronplant.github.io/personal-page/sitemap.xml
