@@ -22,6 +22,6 @@ jobs:
           pip install -r requirements.txt
       - name: Build and Deploy
         run: |
-          mkdocs build --clean
+          zensical build --clean
           touch site/.nojekyll
           mkdocs gh-deploy --force --clean

@@ -4,6 +4,11 @@
 # Generation
 ./.cache
 
-# pdf_gen build dir
-./tools/pdf_gen/build
-./tools/pdf_gen/.cache/*
+# UV
+uv.lock
+pyproject.toml
+.python-version
+.venv
+
+# Local testing
+site

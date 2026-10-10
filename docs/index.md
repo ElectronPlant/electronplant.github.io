@@ -1,18 +1,15 @@
 ---
-title: David Arnaiz - Curriculum Vitae
+title: Profile
 icon: fontawesome/regular/id-badge
 description: David Arnaiz, an embedded firmware engineer specializing in adaptive IoT sensors, RTOSs, and dynamic energy management for low-power systems. Based in Spain.
 ---
-<!-- print skip start -->
 ![resume_image](assets/imgs/resume_image.jpg)
-<!-- print skip end -->
 
 <div id="header">
     <h1>David Arnaiz</h1>
     <p>Embedded Software Engineer</p>
 </div>
 
-<!-- print skip start -->
 <div markdown class="socials">
   <a href="mailto:electronplant@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
     :octicons-mail-16:
@@ -26,34 +23,11 @@ description: David Arnaiz, an embedded firmware engineer specializing in adaptiv
   <a href="https://scholar.google.com/citations?user=32m35KwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
     :fontawesome-brands-google-scholar:
   </a>
-
   <a href="assets/documents/DavidArnaiz_CV.pdf" target="_blank" rel="noopener noreferrer" title="Download PDF">
     :fontawesome-solid-file-pdf:
   </a>
 </div>
-<!-- print skip end -->
 
-<!-- print only start
-<div markdown class="socials_print">
-  <a href="mailto:electronplant@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
-    :octicons-mail-16: electronplant@gmail.com
-  </a>
-  <a href="https://github.com/ElectronPlant" target="_blank" rel="noopener noreferrer" title="Github">
-    :fontawesome-brands-github: ElectronPlant
-  </a>
-  <a href="https://www.linkedin.com/in/david-arnaiz-mart%C3%ADnez" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-    :fontawesome-brands-linkedin:
-  </a>
-  <a href="https://scholar.google.com/citations?user=32m35KwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
-    :fontawesome-brands-google-scholar:
-  </a>
-  <a href="https://electronplant.github.io/" target="_blank" rel="noopener noreferrer" title="Personal Page">
-    :fontawesome-solid-address-book: Personal Page
-  </a>
-</div>
-print only end -->
-
-<!-- print skip start -->
 <div class="keywords-title">
     <p>Keywords</p>
 </div>
@@ -64,7 +38,7 @@ print only end -->
     <div class="keyword">Electronics Engineer</div>
     <div class="keyword">RTOS Application Dev.</div>
 </div>
-<!-- print skip end -->
+
 ---
 ## :material-eye: About me
 
