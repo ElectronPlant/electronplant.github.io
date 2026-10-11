@@ -104,7 +104,7 @@ STM32 Drivers for the MPU-6050 I2C sensors and serial print.
     </a>
 </p>
 
-__Tags__ `Arduino` `STM32`
+__Tags__ `Arduino`
 
 __Description__
 Arduino driver for the MP6050 I2C sensor.
